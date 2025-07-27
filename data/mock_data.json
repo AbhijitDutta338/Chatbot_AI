@@ -1,0 +1,542 @@
+{
+  "events": [
+    {
+      "event_id": "BIEC_EXPO_2025",
+      "name": "Bangalore International Expo 2025",
+      "venue": {
+        "venue_name": "Bangalore International Exhibition Centre",
+        "coordinate_x1_y1": {
+          "latitude": 13.0691457,
+          "longitude": 77.49256252
+        },
+        "coordinate_x2_y2": {
+          "latitude": 13.07972964,
+          "longitude": 77.5030153
+        }
+      },
+      "zones": [
+        {
+          "zone_id": "hall_a",
+          "zone_name": "Exhibition Hall A",
+          "width": "150m",
+          "height": "75m"
+        },
+        {
+          "zone_id": "hall_b",
+          "zone_name": "Exhibition Hall B",
+          "width": "150m",
+          "height": "75m"
+        },
+        {
+          "zone_id": "conf_rm_1",
+          "zone_name": "Conference Room 1",
+          "width": "50m",
+          "height": "50m"
+        },
+        {
+          "zone_id": "food_court",
+          "zone_name": "Food Court",
+          "width": "100m",
+          "height": "60m"
+        },
+        {
+          "zone_id": "outdoor_plaza",
+          "zone_name": "Outdoor Plaza",
+          "width": "120m",
+          "height": "120m"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "user_id": "544a286a-0c39-4cb5-a9be-f6e40ce1e66e",
+      "name": "Russell Carlson",
+      "email": "johnsonshannon@hotmail.com",
+      "contact_no": "711.385.6069",
+      "user_role": "admin",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Exhibition Hall B",
+      "location": {
+        "latitude": 13.06934096,
+        "longitude": 77.49436798
+      }
+    },
+    {
+      "user_id": "bd29ab02-5092-4c13-8576-52e078ab8bfc",
+      "name": "Sonya Carr",
+      "email": "robertswanson@yahoo.com",
+      "contact_no": "+1-600-333-5682x861",
+      "user_role": "admin",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Exhibition Hall B",
+      "location": {
+        "latitude": 13.07015188,
+        "longitude": 77.49436252
+      }
+    },
+    {
+      "user_id": "e51c3655-ed64-4e32-ad59-db3b38d70302",
+      "name": "Seth Brown",
+      "email": "tamaraprice@melton.com",
+      "contact_no": "619-143-8917x4689",
+      "user_role": "admin",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Exhibition Hall A",
+      "location": {
+        "latitude": 13.07008501,
+        "longitude": 77.4935483
+      }
+    },
+    {
+      "user_id": "013012ce-253d-4d6c-a4f7-05a609564c56",
+      "name": "Joshua Cantu",
+      "email": "bmurray@obrien-singh.biz",
+      "contact_no": "082-910-3262",
+      "user_role": "responder_security",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Food Court",
+      "location": {
+        "latitude": 13.06983324,
+        "longitude": 77.49392784
+      }
+    },
+    {
+      "user_id": "e2aaec7f-ff0d-449d-bd6a-28180a61f589",
+      "name": "Emily Henderson",
+      "email": "lindseyjohnson@gmail.com",
+      "contact_no": "+1-527-111-5905x47494",
+      "user_role": "responder_security",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Food Court",
+      "location": {
+        "latitude": 13.06982704,
+        "longitude": 77.4927246
+      }
+    },
+    {
+      "user_id": "6114dd4b-4333-4cd3-869f-f4b3a869cc88",
+      "name": "Michael Montgomery",
+      "email": "chavezkayla@hotmail.com",
+      "contact_no": "858.474.0322x984",
+      "user_role": "responder_medic",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Conference Room 1",
+      "location": {
+        "latitude": 13.06959878,
+        "longitude": 77.49418823
+      }
+    },
+    {
+      "user_id": "acf30d1e-d26e-4b13-aabf-944d34e3db2c",
+      "name": "Adam James",
+      "email": "jameswhite@yahoo.com",
+      "contact_no": "(764)171-9881",
+      "user_role": "responder_medic",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Outdoor Plaza",
+      "location": {
+        "latitude": 13.06886731,
+        "longitude": 77.49264775
+      }
+    },
+    {
+      "user_id": "363814b0-9c3d-44ac-b855-373fc125bf17",
+      "name": "Robin Benjamin",
+      "email": "debradavis@rios.biz",
+      "contact_no": "576.048.7848",
+      "user_role": "responder_medic",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Exhibition Hall A",
+      "location": {
+        "latitude": 13.06876443,
+        "longitude": 77.49363565
+      }
+    },
+    {
+      "user_id": "25238718-d96c-4bf7-9d2f-c41ccf42c20a",
+      "name": "Eric Smith",
+      "email": "pjones@miller.com",
+      "contact_no": "(627)374-1951x711",
+      "user_role": "responder_medic",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Food Court",
+      "location": {
+        "latitude": 13.06994118,
+        "longitude": 77.49390703
+      }
+    },
+    {
+      "user_id": "4fa18660-5a43-4805-ad7f-791497c49b5b",
+      "name": "Jason Lyons",
+      "email": "atorres@davis.com",
+      "contact_no": "6391443534",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Food Court",
+      "location": {
+        "latitude": 13.06939243,
+        "longitude": 77.49399674
+      }
+    },
+    {
+      "user_id": "3c4fa95e-c178-4507-ac8e-1617587dd618",
+      "name": "Danielle Brown",
+      "email": "rushjames@morgan-hunt.com",
+      "contact_no": "430-098-5362",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Exhibition Hall A",
+      "location": {
+        "latitude": 13.06892652,
+        "longitude": 77.49331036
+      }
+    },
+    {
+      "user_id": "e841e318-4125-40cd-ada5-01a9636c2344",
+      "name": "Shannon Lee",
+      "email": "faulknermichael@yahoo.com",
+      "contact_no": "001-242-983-6857x4638",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Food Court",
+      "location": {
+        "latitude": 13.06906807,
+        "longitude": 77.49447801
+      }
+    },
+    {
+      "user_id": "fc4b7355-1c35-47d6-9e1c-e56412a88ee9",
+      "name": "Christian Hunter",
+      "email": "robertsonjohn@brown-johnson.com",
+      "contact_no": "+1-104-454-2242x45178",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Conference Room 1",
+      "location": {
+        "latitude": 13.0693644,
+        "longitude": 77.49403417
+      }
+    },
+    {
+      "user_id": "6ea46842-a20e-48f4-a83b-03d44c4dcc98",
+      "name": "Kayla Gutierrez",
+      "email": "eschroeder@gmail.com",
+      "contact_no": "024.990.2531x83190",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Conference Room 1",
+      "location": {
+        "latitude": 13.06896955,
+        "longitude": 77.49439189
+      }
+    },
+    {
+      "user_id": "0a1077da-98db-4202-9502-37465ee2f78d",
+      "name": "Bobby Bailey",
+      "email": "nicholasoconnell@daugherty-harding.biz",
+      "contact_no": "2152437188",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Conference Room 1",
+      "location": {
+        "latitude": 13.06952498,
+        "longitude": 77.49340622
+      }
+    },
+    {
+      "user_id": "0fe01317-e23d-4e24-b62d-52034ca8b579",
+      "name": "Steven Jackson",
+      "email": "reyesgreg@yahoo.com",
+      "contact_no": "240.384.7281x954",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Food Court",
+      "location": {
+        "latitude": 13.06956958,
+        "longitude": 77.49381574
+      }
+    },
+    {
+      "user_id": "d8e46327-0f13-4d29-834f-bc5856fe1cb7",
+      "name": "Tonya Williamson",
+      "email": "mparker@walker-white.com",
+      "contact_no": "135.678.7883",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Conference Room 1",
+      "location": {
+        "latitude": 13.06857077,
+        "longitude": 77.49275934
+      }
+    },
+    {
+      "user_id": "bd78676e-4ea1-431f-9a22-0f13616082ce",
+      "name": "Molly Chung",
+      "email": "cking@hoffman.info",
+      "contact_no": "(336)110-1076x08055",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Food Court",
+      "location": {
+        "latitude": 13.06919332,
+        "longitude": 77.49279465
+      }
+    },
+    {
+      "user_id": "afca393d-952f-4f13-a4ff-486f976150fd",
+      "name": "Mary Wilcox",
+      "email": "wendysantana@yahoo.com",
+      "contact_no": "240-188-4505",
+      "user_role": "invitee",
+      "registered_event": "Bangalore International Expo 2025",
+      "user_zone": "Exhibition Hall A",
+      "location": {
+        "latitude": 13.06885026,
+        "longitude": 77.49294891
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": "5b79f580-3f24-4afe-90d6-5818c3320c87",
+      "zone": "Food Court",
+      "status": "pending",
+      "timestamp": "1975-01-22T00:43:33"
+    },
+    {
+      "alert_id": "f090edee-077a-4d57-ac3b-c7c4060321e6",
+      "zone": "Food Court",
+      "status": "escalated",
+      "timestamp": "1990-12-21T01:56:49"
+    },
+    {
+      "alert_id": "b990cef4-50e5-484a-bd20-27a1f988a322",
+      "zone": "Conference Room 1",
+      "status": "acknowledged",
+      "timestamp": "2011-02-21T12:34:25"
+    },
+    {
+      "alert_id": "45d8a9da-4862-4253-aae6-441586f42e76",
+      "zone": "Exhibition Hall A",
+      "status": "pending",
+      "timestamp": "2004-03-10T08:29:15"
+    },
+    {
+      "alert_id": "411a0e8b-ec11-4532-996b-c0ac53dbf8d9",
+      "zone": "Exhibition Hall A",
+      "status": "acknowledged",
+      "timestamp": "2017-10-27T23:47:06"
+    },
+    {
+      "alert_id": "0fd7998e-6441-4f12-bc3d-08ebc17e14c1",
+      "zone": "Outdoor Plaza",
+      "status": "pending",
+      "timestamp": "1995-11-14T03:43:16"
+    },
+    {
+      "alert_id": "7b397395-9422-4165-8746-4f65819ec2fe",
+      "zone": "Exhibition Hall A",
+      "status": "acknowledged",
+      "timestamp": "1993-06-01T00:50:53"
+    }
+  ],
+  "incidents": [
+    {
+      "incident_id": "eb2d99ce-cd1f-414f-a9ef-4b44e6844f75",
+      "reported_by": "afca393d-952f-4f13-a4ff-486f976150fd",
+      "incident_type": "medical emergency",
+      "description": "Marriage man cost under someone away top.",
+      "location": {
+        "latitude": 13.07001619,
+        "longitude": 77.4943976
+      },
+      "timestamp": "2011-03-31T05:03:29",
+      "assigned_responder": null
+    },
+    {
+      "incident_id": "05305429-5795-4f46-b54d-9a49c5a85b1c",
+      "reported_by": "acf30d1e-d26e-4b13-aabf-944d34e3db2c",
+      "incident_type": "crowd surge",
+      "description": "Because money cover either name material.",
+      "location": {
+        "latitude": 13.06955086,
+        "longitude": 77.49357551
+      },
+      "timestamp": "2004-04-17T10:41:39",
+      "assigned_responder": null
+    },
+    {
+      "incident_id": "af8c1f7a-2b38-41c2-bb02-e44ff4ddc72b",
+      "reported_by": "bd78676e-4ea1-431f-9a22-0f13616082ce",
+      "incident_type": "crowd surge",
+      "description": "White would country drive natural have support team.",
+      "location": {
+        "latitude": 13.06867214,
+        "longitude": 77.49262451
+      },
+      "timestamp": "2008-08-08T08:15:12",
+      "assigned_responder": null
+    },
+    {
+      "incident_id": "a9df0be6-59e5-4eae-bb3c-f32e1fd90e02",
+      "reported_by": "afca393d-952f-4f13-a4ff-486f976150fd",
+      "incident_type": "theft",
+      "description": "Will hear condition box.",
+      "location": {
+        "latitude": 13.06983834,
+        "longitude": 77.49368795
+      },
+      "timestamp": "2023-01-03T16:16:54",
+      "assigned_responder": null
+    },
+    {
+      "incident_id": "250adb88-c16b-4713-9f6c-4e3346fd7e25",
+      "reported_by": "e841e318-4125-40cd-ada5-01a9636c2344",
+      "incident_type": "suspicious item",
+      "description": "Whom particular agent out brother later.",
+      "location": {
+        "latitude": 13.06940504,
+        "longitude": 77.49359511
+      },
+      "timestamp": "2001-04-30T06:12:12",
+      "assigned_responder": null
+    },
+    {
+      "incident_id": "a97e32a3-5d61-4647-92f1-0c0041f6e138",
+      "reported_by": "bd78676e-4ea1-431f-9a22-0f13616082ce",
+      "incident_type": "theft",
+      "description": "Evidence front police manager person.",
+      "location": {
+        "latitude": 13.06981699,
+        "longitude": 77.49276667
+      },
+      "timestamp": "2023-10-19T23:21:59",
+      "assigned_responder": null
+    },
+    {
+      "incident_id": "f803eec4-635d-46ad-bfa8-784bb4484da2",
+      "reported_by": "e2aaec7f-ff0d-449d-bd6a-28180a61f589",
+      "incident_type": "theft",
+      "description": "Evidence similar already lose green appear yourself.",
+      "location": {
+        "latitude": 13.07026421,
+        "longitude": 77.49290951
+      },
+      "timestamp": "2024-10-10T07:23:12",
+      "assigned_responder": null
+    },
+    {
+      "incident_id": "5a6a8f67-7383-4e32-a7ee-b4884b33e85b",
+      "reported_by": "0a1077da-98db-4202-9502-37465ee2f78d",
+      "incident_type": "suspicious item",
+      "description": "Reflect enter quality media ten significant energy.",
+      "location": {
+        "latitude": 13.06874029,
+        "longitude": 77.49390325
+      },
+      "timestamp": "2019-03-06T03:17:55",
+      "assigned_responder": null
+    },
+    {
+      "incident_id": "48f63154-59f8-48ad-ae94-e47dd3463ac9",
+      "reported_by": "6114dd4b-4333-4cd3-869f-f4b3a869cc88",
+      "incident_type": "fight",
+      "description": "Black stand conference eight discussion this huge environment.",
+      "location": {
+        "latitude": 13.06882375,
+        "longitude": 77.4942358
+      },
+      "timestamp": "1971-06-16T12:22:57",
+      "assigned_responder": null
+    },
+    {
+      "incident_id": "6aca2500-2536-4be3-a68a-f4e9f2588e6d",
+      "reported_by": "e51c3655-ed64-4e32-ad59-db3b38d70302",
+      "incident_type": "theft",
+      "description": "Often establish record plan.",
+      "location": {
+        "latitude": 13.06955057,
+        "longitude": 77.49305356
+      },
+      "timestamp": "1974-12-02T08:21:07",
+      "assigned_responder": null
+    }
+  ],
+  "lost_and_found": [
+    {
+      "item_id": "6ad46097-e015-4128-b43f-0b4fba2af78a",
+      "description": "Lost bag - Indigo",
+      "zone": "Conference Room 1",
+      "reported_by": "6ea46842-a20e-48f4-a83b-03d44c4dcc98",
+      "timestamp": "1975-01-28T05:49:54"
+    },
+    {
+      "item_id": "01153aa8-dc11-4edb-bec2-92f6f4082787",
+      "description": "Lost water bottle - RoyalBlue",
+      "zone": "Outdoor Plaza",
+      "reported_by": "e841e318-4125-40cd-ada5-01a9636c2344",
+      "timestamp": "2015-11-01T11:29:59"
+    },
+    {
+      "item_id": "d7353898-2f15-4ff6-95a6-59249221e2fa",
+      "description": "Lost bag - Gold",
+      "zone": "Food Court",
+      "reported_by": "bd78676e-4ea1-431f-9a22-0f13616082ce",
+      "timestamp": "1993-08-25T23:38:12"
+    },
+    {
+      "item_id": "6fb77590-91bf-4147-84da-ec771a85b44e",
+      "description": "Lost badge - FloralWhite",
+      "zone": "Outdoor Plaza",
+      "reported_by": "e51c3655-ed64-4e32-ad59-db3b38d70302",
+      "timestamp": "1994-11-07T00:34:48"
+    },
+    {
+      "item_id": "86382967-1c4a-4dad-a17e-67a67f817f13",
+      "description": "Lost bag - DarkOrchid",
+      "zone": "Food Court",
+      "reported_by": "afca393d-952f-4f13-a4ff-486f976150fd",
+      "timestamp": "1979-11-20T22:41:07"
+    },
+    {
+      "item_id": "99ba9da1-18e9-416f-a146-8a045eee82a0",
+      "description": "Lost wallet - MediumSlateBlue",
+      "zone": "Exhibition Hall B",
+      "reported_by": "544a286a-0c39-4cb5-a9be-f6e40ce1e66e",
+      "timestamp": "2012-05-30T17:36:17"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "3de0b9b2-1274-4b21-b23e-cebde5336e98",
+      "title": "Emergency Protocol",
+      "description": "Emergency Protocol for the event",
+      "url": "https://hahn.biz/"
+    },
+    {
+      "doc_id": "4921626c-a50c-4de5-9499-1d3934baf936",
+      "title": "Venue Map",
+      "description": "Venue Map for the event",
+      "url": "https://www.lynch-hall.org/"
+    },
+    {
+      "doc_id": "2d312c01-c291-4917-8f64-59c4d7c44786",
+      "title": "Safety Guidelines",
+      "description": "Safety Guidelines for the event",
+      "url": "http://barber.com/"
+    },
+    {
+      "doc_id": "e0b7016c-d514-4705-bfdb-23b3ffe0d2ff",
+      "title": "FAQs",
+      "description": "FAQs for the event",
+      "url": "https://www.perez-watson.com/"
+    },
+    {
+      "doc_id": "55fe27d1-cddf-471f-bcf3-6e3d05e85e10",
+      "title": "Medical Response SOP",
+      "description": "Medical Response SOP for the event",
+      "url": "http://www.campbell.com/"
+    }
+  ]
+}

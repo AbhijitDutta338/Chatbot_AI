@@ -1,0 +1,75 @@
+2025-07-27 08:20:56,340 - INFO - Received request to /generate endpoint
+2025-07-27 08:20:56,340 - INFO - Received request with user_type: security_guard, query: test query
+2025-07-27 08:20:56,340 - INFO - Initializing AgentExecutorBuilder for user_type: security_guard
+2025-07-27 08:20:56,340 - INFO - Tools loaded: []
+2025-07-27 08:20:56,340 - INFO - System prompt set: You are a helpful AI assistant....
+2025-07-27 08:20:56,340 - INFO - Creating ConversationalChatAgent with provided LLM, tools, and system prompt.
+2025-07-27 08:20:56,352 - ERROR - Exception in /generate endpoint: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=genai.GenerativeModel(
+  ...   cached_content=None
+), input_type=GenerativeModel]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=genai.GenerativeModel(
+  ...   cached_content=None
+), input_type=GenerativeModel]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+2025-07-27 08:21:34,881 - INFO - Received request to /generate endpoint
+2025-07-27 08:21:34,881 - INFO - Received request with user_type: admin, query: How many incidents have been reported in the last 24 hours?
+2025-07-27 08:21:34,883 - INFO - Initializing AgentExecutorBuilder for user_type: admin
+2025-07-27 08:21:34,886 - ERROR - Exception in /generate endpoint: unexpected character after line continuation character (admin_tools.py, line 21)
+2025-07-27 08:22:18,041 - INFO - Received request to /generate endpoint
+2025-07-27 08:22:18,041 - INFO - Received request with user_type: admin, query: How many incidents have been reported in the last 24 hours?
+2025-07-27 08:22:18,041 - INFO - Initializing AgentExecutorBuilder for user_type: admin
+2025-07-27 08:22:18,041 - ERROR - Exception in /generate endpoint: unexpected character after line continuation character (admin_tools.py, line 21)
+2025-07-27 08:23:01,659 - INFO - Received request to /generate endpoint
+2025-07-27 08:23:01,659 - INFO - Received request with user_type: admin, query: How many incidents have been reported in the last 24 hours?
+2025-07-27 08:23:01,659 - INFO - Initializing AgentExecutorBuilder for user_type: admin
+2025-07-27 08:23:01,674 - ERROR - Exception in /generate endpoint: cannot import name 'mock_data' from 'service.mock_data_service' (C:\Users\Hp\Desktop\crowdguard.ai\Chatbot_AI\service\mock_data_service.py)
+2025-07-27 08:24:58,606 - INFO - Received request to /generate endpoint
+2025-07-27 08:24:58,606 - INFO - Received request with user_type: admin, query: How many incidents have been reported in the last 24 hours?
+2025-07-27 08:24:58,610 - INFO - Initializing AgentExecutorBuilder for user_type: admin
+2025-07-27 08:24:58,619 - INFO - Tools loaded: ['DBSearchTool', 'ReportTool']
+2025-07-27 08:24:58,619 - INFO - System prompt set: You are an intelligent Event Safety Admin Assistant AI.
+
+Your responsibilities include:
+- Monitoring...
+2025-07-27 08:24:58,619 - INFO - Creating ConversationalChatAgent with provided LLM, tools, and system prompt.
+2025-07-27 08:24:58,627 - ERROR - Exception in /generate endpoint: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=genai.GenerativeModel(
+  ...   cached_content=None
+), input_type=GenerativeModel]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=genai.GenerativeModel(
+  ...   cached_content=None
+), input_type=GenerativeModel]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+2025-07-27 08:26:46,109 - INFO - Received request to /generate endpoint
+2025-07-27 08:26:46,109 - INFO - Received request with user_type: admin, query: How many incidents have been reported in the last 24 hours?
+2025-07-27 08:26:46,109 - INFO - Initializing AgentExecutorBuilder for user_type: admin
+2025-07-27 08:26:46,113 - INFO - Tools loaded: ['DBSearchTool', 'ReportTool']
+2025-07-27 08:26:46,113 - INFO - System prompt set: You are an intelligent Event Safety Admin Assistant AI.
+
+Your responsibilities include:
+- Monitoring...
+2025-07-27 08:26:46,113 - INFO - Creating ConversationalChatAgent with provided LLM, tools, and system prompt.
+2025-07-27 08:26:46,113 - INFO - ConversationalChatAgent created successfully.
+2025-07-27 08:26:46,120 - INFO - AgentExecutor instance created successfully.
+2025-07-27 08:26:46,124 - INFO - AgentExecutor created, running query...
+2025-07-27 08:26:46,152 - ERROR - Exception in /generate endpoint: Missing some input keys: {'chat_history'}
+2025-07-27 08:27:16,013 - INFO - Received request to /generate endpoint
+2025-07-27 08:27:16,013 - INFO - Received request with user_type: admin, query: How many incidents have been reported in the last 24 hours?
+2025-07-27 08:27:16,013 - INFO - Initializing AgentExecutorBuilder for user_type: admin
+2025-07-27 08:27:16,013 - INFO - Tools loaded: ['DBSearchTool', 'ReportTool']
+2025-07-27 08:27:16,013 - INFO - System prompt set: You are an intelligent Event Safety Admin Assistant AI.
+
+Your responsibilities include:
+- Monitoring...
+2025-07-27 08:27:16,013 - INFO - Creating ConversationalChatAgent with provided LLM, tools, and system prompt.
+2025-07-27 08:27:16,020 - INFO - ConversationalChatAgent created successfully.
+2025-07-27 08:27:16,020 - INFO - AgentExecutor instance created successfully.
+2025-07-27 08:27:16,020 - INFO - AgentExecutor created, running query...
+2025-07-27 08:27:20,858 - INFO - Agent response: Seven incidents have been reported, according to the available data.  Note that the data does not specify a 24-hour timeframe.
