@@ -36,21 +36,59 @@ const ChatbotAssistant = ({ open, onClose }) => {
     }
   }, [chat, isTyping, open]);
 
-  const handleSend = () => {
+  const handleSend = async () => {
     if (!input.trim()) return;
+    
     const now = new Date();
     const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-    setChat(prev => [...prev, { text: input, isUser: true, time }]);
+    const userMessage = { text: input, isUser: true, time };
+    
+    // Add user message to chat
+    setChat(prev => [...prev, userMessage]);
+    const userInput = input;
     setInput('');
     setIsTyping(true);
-    setTimeout(() => {
-      setChat(prev => [...prev, { text: 'This is a mock bot reply.', isUser: false, time }]);
+
+    try {
+      // Make API call
+      const response = await fetch('https://promptops-service-891930461435.us-central1.run.app', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ logs: userInput }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const botResponse = data.summary || 'Sorry, I could not process your request.';
+      
+      // Add bot response to chat
+      const botTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      setChat(prev => [...prev, { text: botResponse, isUser: false, time: botTime }]);
+      
+    } catch (error) {
+      console.error('Error calling API:', error);
+      // Fallback response in case of error
+      const errorTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      setChat(prev => [...prev, { 
+        text: 'Sorry, I am having trouble connecting right now. Please try again later.', 
+        isUser: false, 
+        time: errorTime 
+      }]);
+    } finally {
       setIsTyping(false);
-    }, 1200);
+    }
   };
 
   const handleInputKeyDown = (e) => {
-    if (e.key === 'Enter') handleSend();
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleSend();
+    }
   };
 
   return (
