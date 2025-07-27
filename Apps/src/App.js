@@ -10,10 +10,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<EventForm />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/invitee" element={<InviteeHome />} />
         <Route path="/responder" element={<ResponderDashboard />} />
+        <Route path="/" element={<EventForm />} />
         <Route path="*" element={<AdminDashboard />} />
       </Routes>
     </Router>

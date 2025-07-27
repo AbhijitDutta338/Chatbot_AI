@@ -7,6 +7,7 @@ import IncidentList from '../components/IncidentList';
 import Map from '../components/Map';
 import BottomNav from '../components/BottomNav';
 import ChatbotAssistant from '../components/ChatbotAssistant';
+import Heatmap from '../components/Heatmap';
 
 const mockEvent = {
   name: 'Google Agentic AI Day',
@@ -50,9 +51,9 @@ const AdminDashboard = () => {
         </Paper>
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <Paper sx={{ p: 1.5, minHeight: 180, display: 'flex', alignItems: 'center', justifyContent: 'center', mb: 2, borderRadius: 2 }}>
+            <Paper sx={{ p: 1.5, minHeight: 220, display: 'flex', alignItems: 'center', justifyContent: 'center', mb: 2, borderRadius: 2 }}>
               <Box sx={{ width: '100%', height: '180px', maxWidth: '100vw' }}>
-                <Map />
+                <Heatmap />
               </Box>
             </Paper>
           </Grid>
@@ -81,7 +82,7 @@ const AdminDashboard = () => {
             </Paper>
           </Grid>
         </Grid>
-        <Fab color="primary" sx={{ position: 'fixed', bottom: 80, right: 20, zIndex: 1000, width: 56, height: 56 }} aria-label="chatbot" onClick={() => setChatbotOpen(true)}>
+        <Fab color="primary" sx={{ position: 'fixed', bottom: 80, right: 20, zIndex: 1000 }} aria-label="chatbot" onClick={() => setChatbotOpen(true)}>
           <ChatIcon sx={{ fontSize: 28 }} />
         </Fab>
         <ChatbotAssistant open={chatbotOpen} onClose={() => setChatbotOpen(false)} />

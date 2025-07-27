@@ -8,8 +8,6 @@ const IncidentCard = ({ type, time, location }) => (
       mb: 2,
       width: '100%',
       height: 120,
-      maxWidth: 180,
-      minWidth: 120,
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
