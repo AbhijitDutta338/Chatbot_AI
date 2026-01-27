@@ -25,7 +25,7 @@
 **Project Drishti** is an AI-powered situational awareness platform designed to improve safety at large public events. It acts as a “central nervous system” for event safety, providing real-time, actionable intelligence, predictive analytics, and automated resource dispatch to help commanders anticipate and mitigate risks.
 
 This repository contains the source code for the Project Drishti platform, combining FastAPI, React.js, Firebase/Cloud Functions, and LangChain with Google AI technologies.
-
+To View the presentation deck -> Look for @Hackathon Sumission.pdf
 ---
 
 ## Problem Statement
@@ -72,6 +72,13 @@ The solution harnesses Google’s Vertex AI Vision, Vertex AI Forecasting, Gemin
 - **Backend/Agents**: LangChain orchestrates AI agents; Firebase Cloud Functions handle scalable backend logic; Google Vertex AI services power vision, forecasting, and agentic intelligence.
 
 ---
+HLD Diagram:
+<img width="784" height="436" alt="image" src="https://github.com/user-attachments/assets/658e4c01-b238-4001-b028-6304f7837099" />
+
+---
+LLD Diagram:
+<img width="788" height="442" alt="image" src="https://github.com/user-attachments/assets/e8aeb34c-67e3-4ecb-b3f0-b020011a4a69" />
+
 
 ## Tech Stack
 
