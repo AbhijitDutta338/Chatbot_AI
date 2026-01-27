@@ -72,11 +72,13 @@ The solution harnesses Google’s Vertex AI Vision, Vertex AI Forecasting, Gemin
 - **Backend/Agents**: LangChain orchestrates AI agents; Firebase Cloud Functions handle scalable backend logic; Google Vertex AI services power vision, forecasting, and agentic intelligence.
 
 ---
-HLD Diagram:
+## HLD Diagram:
+
 <img width="784" height="436" alt="image" src="https://github.com/user-attachments/assets/658e4c01-b238-4001-b028-6304f7837099" />
 
 ---
-LLD Diagram:
+## LLD Diagram:
+
 <img width="788" height="442" alt="image" src="https://github.com/user-attachments/assets/e8aeb34c-67e3-4ecb-b3f0-b020011a4a69" />
 
 
